@@ -35,6 +35,18 @@ body {
 /*
    MAIN SECTION
 */
+.main__container {
+   background: var(--dark-desaturated-blue);
+   margin: 1rem;
+   height: max-content;
+   display: grid;
+   border-radius: 0.5rem;
+   max-width: 100%;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+.main__picture-img {
+   width: 100%;
+}
 /*
    FOOTER SECTION
 */
@@ -47,7 +59,7 @@ body {
    text-align: center;
 }
 .author__section > * {
-   color: var(--cyan);
+   color: var(--slightly-transparent-white-main-paragraph);
    font-weight: 500;
 }
 .author__section > .author__spacer {
@@ -58,5 +70,5 @@ body {
    transition: .3s ease-out;
 }
 .author__section > .author__anchor:hover {
-   color: var(--bright-yellow);
+   color: var(--soft-violet);
 }
