@@ -137,3 +137,39 @@ body {
 .author__section > .author__anchor:hover {
    color: var(--soft-violet);
 }
+
+@media (min-width: 450px){
+   .main__container {
+      grid-template-rows: 2fr 1fr;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .main__content {
+      place-self:center;
+      text-align: left;
+   }
+
+   .main__title {
+      font-size: 2.5rem;
+   }
+
+   .main__description {
+      line-height: 2em;
+      margin-top: .58em;
+      letter-spacing: 0.015em;
+      width: 80%
+   }
+
+   .main__picture {
+      grid-column-start: 2;
+      grid-row-start: -3;
+      grid-row-end: -1;
+      border-radius: 0 .5rem .5rem 0;
+   }
+
+   .main__stats-container {
+      flex-direction: row;
+      gap: 3rem;
+      justify-content: flex-start;
+   }
+}
