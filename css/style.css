@@ -142,6 +142,7 @@ body {
    .main__container {
       grid-template-rows: 2fr 1fr;
       grid-template-columns: 1fr 1fr;
+      max-width: 80%;
    }
 
    .main__content {
@@ -171,5 +172,13 @@ body {
       flex-direction: row;
       gap: 3rem;
       justify-content: flex-start;
+   }
+   .main__stats {
+      align-items: flex-start;
+      font-size: 1.8rem;
+      font-weight: 700;
+   }
+   .main__stats--description{
+      font-size: .8rem;
    }
 }
